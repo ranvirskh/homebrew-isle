@@ -4,7 +4,7 @@ cask "isle" do
 
   url "https://github.com/ranvirskh/isle-cc/releases/download/v#{version}/Isle-#{version}.zip"
   name "Isle"
-  desc "Dynamic-island utility for the MacBook notch: now playing, lyrics, calendar, reminders and more"
+  desc "Dynamic-island utility for the MacBook notch"
   homepage "https://github.com/ranvirskh/isle-cc"
 
   livecheck do
@@ -12,7 +12,7 @@ cask "isle" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Isle.app"
 
