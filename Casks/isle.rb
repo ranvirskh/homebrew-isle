@@ -1,6 +1,6 @@
 cask "isle" do
-  version "1.3.6"
-  sha256 "6b926609c8b68d42889158996c02e1fdeb5bac3aa3012ef31297ec6a8984f22e"
+  version "1.3.7"
+  sha256 "d634aa4dc15794eda4d805e646d851c3069cd4b602196aa7749b4fa20d80d084"
 
   url "https://github.com/ranvirskh/isle-cc/releases/download/v#{version}/Isle-#{version}.zip"
   name "Isle"
